@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="procurement_user" name="procurement_user">dedc6abe37d13000158bbfc8bcbe5d2c</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-10-24 11:40:57</sys_created_on>
+        <sys_id>c2f3db34dbca03000a1dd8c0cf96193f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dedc6abe37d13000158bbfc8bcbe5d2c</sys_name>
+        <sys_package display_value="IT Billing" source="x_0555_it_billing">6d8b4d92db3103000a1dd8c0cf961994</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Billing">6d8b4d92db3103000a1dd8c0cf961994</sys_scope>
+        <sys_update_name>sys_embedded_help_role_c2f3db34dbca03000a1dd8c0cf96193f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-10-24 11:40:57</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

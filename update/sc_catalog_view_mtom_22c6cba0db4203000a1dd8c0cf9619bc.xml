@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="IT Billing Demo Catalog">04c6cba0db4203000a1dd8c0cf9619e4</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-23 16:04:54</sys_created_on>
+        <sys_id>22c6cba0db4203000a1dd8c0cf9619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IT Billing Demo Catalog.catalog_it_billing_demo_catalog</sys_name>
+        <sys_package display_value="IT Billing" source="x_0555_it_billing">6d8b4d92db3103000a1dd8c0cf961994</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_it_billing_demo_catalog">62c6cba0db4203000a1dd8c0cf9619bb</sys_portal_page>
+        <sys_scope display_value="IT Billing">6d8b4d92db3103000a1dd8c0cf961994</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_22c6cba0db4203000a1dd8c0cf9619bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-23 16:04:54</sys_updated_on>
+    </sc_catalog_view_mtom>
+</record_update>

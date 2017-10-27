@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="fm_cmdb_rel_cc" version="2" view="RPTfade8dddc0a805c64abceb2b556dcf22">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>cost_center</element>
+            <list_id display_value="fm_cmdb_rel_cc" element="NULL" name="fm_cmdb_rel_cc" parent="NULL" relationship="NULL" sys_domain="global" view="7b7936f0db8a03000a1dd8c0cf9619cf">777936f0db8a03000a1dd8c0cf9619d0</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-24 09:45:18</sys_created_on>
+            <sys_id>ff7936f0db8a03000a1dd8c0cf9619d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-24 09:45:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>cmdb_ci</element>
+            <list_id display_value="fm_cmdb_rel_cc" element="NULL" name="fm_cmdb_rel_cc" parent="NULL" relationship="NULL" sys_domain="global" view="7b7936f0db8a03000a1dd8c0cf9619cf">777936f0db8a03000a1dd8c0cf9619d0</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-24 09:45:18</sys_created_on>
+            <sys_id>777936f0db8a03000a1dd8c0cf9619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-24 09:45:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>allocation_units</element>
+            <list_id display_value="fm_cmdb_rel_cc" element="NULL" name="fm_cmdb_rel_cc" parent="NULL" relationship="NULL" sys_domain="global" view="7b7936f0db8a03000a1dd8c0cf9619cf">777936f0db8a03000a1dd8c0cf9619d0</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-24 09:45:18</sys_created_on>
+            <sys_id>f77936f0db8a03000a1dd8c0cf9619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-24 09:45:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>fm_cmdb_rel_cc</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-24 09:45:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>777936f0db8a03000a1dd8c0cf9619d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>fm_cmdb_rel_cc</sys_name>
+            <sys_package display_value="IT Billing" source="x_0555_it_billing">6d8b4d92db3103000a1dd8c0cf961994</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IT Billing">6d8b4d92db3103000a1dd8c0cf961994</sys_scope>
+            <sys_update_name>sys_ui_list_fm_cmdb_rel_cc_RPTfade8dddc0a805c64abceb2b556dcf22</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-24 09:45:18</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rptfade8dddc0a805c64abceb2b556dcf22" name="RPTfade8dddc0a805c64abceb2b556dcf22">7b7936f0db8a03000a1dd8c0cf9619cf</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

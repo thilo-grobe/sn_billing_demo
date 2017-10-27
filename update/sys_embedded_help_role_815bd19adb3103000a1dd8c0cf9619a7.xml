@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_0555_it_billing.monthly_service_bill_user" name="x_0555_it_billing.monthly_service_bill_user">895bd19adb3103000a1dd8c0cf9619a5</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-16 08:29:04</sys_created_on>
+        <sys_id>815bd19adb3103000a1dd8c0cf9619a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>895bd19adb3103000a1dd8c0cf9619a5</sys_name>
+        <sys_package display_value="IT Billing" source="x_0555_it_billing">6d8b4d92db3103000a1dd8c0cf961994</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Billing">6d8b4d92db3103000a1dd8c0cf961994</sys_scope>
+        <sys_update_name>sys_embedded_help_role_815bd19adb3103000a1dd8c0cf9619a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-16 08:29:04</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

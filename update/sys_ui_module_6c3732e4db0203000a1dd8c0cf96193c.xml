@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="IT Billing">d95b595edb3103000a1dd8c0cf9619c6</application>
+        <filter/>
+        <name>IT Contracts</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_0555_it_billing.it_contract_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-23 14:56:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6c3732e4db0203000a1dd8c0cf96193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IT Contracts</sys_name>
+        <sys_package display_value="IT Billing" source="x_0555_it_billing">6d8b4d92db3103000a1dd8c0cf961994</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Billing">6d8b4d92db3103000a1dd8c0cf961994</sys_scope>
+        <sys_update_name>sys_ui_module_6c3732e4db0203000a1dd8c0cf96193c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-23 14:56:46</sys_updated_on>
+        <table>x_0555_it_billing_it_contract</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

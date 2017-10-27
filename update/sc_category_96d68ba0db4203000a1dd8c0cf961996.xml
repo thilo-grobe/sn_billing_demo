@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_category">
+    <sc_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent/>
+        <roles/>
+        <sc_catalog display_value="IT Billing Demo Catalog">04c6cba0db4203000a1dd8c0cf9619e4</sc_catalog>
+        <show_in_cms>false</show_in_cms>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-23 16:05:26</sys_created_on>
+        <sys_id>96d68ba0db4203000a1dd8c0cf961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IT Hardware</sys_name>
+        <sys_package display_value="IT Billing" source="x_0555_it_billing">6d8b4d92db3103000a1dd8c0cf961994</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Billing">6d8b4d92db3103000a1dd8c0cf961994</sys_scope>
+        <sys_update_name>sc_category_96d68ba0db4203000a1dd8c0cf961996</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-23 16:05:26</sys_updated_on>
+        <title>IT Hardware</title>
+    </sc_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=96d68ba0db4203000a1dd8c0cf961996"/>
+</record_update>

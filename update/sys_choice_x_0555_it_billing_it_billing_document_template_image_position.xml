@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="image_position" table="x_0555_it_billing_it_billing_document_template" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>image_position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Left</label>
+            <language>en</language>
+            <name>x_0555_it_billing_it_billing_document_template</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-23 18:51:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1ec2360dbc203000a1dd8c0cf961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-23 18:51:33</sys_updated_on>
+            <value>left</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>image_position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Center</label>
+            <language>en</language>
+            <name>x_0555_it_billing_it_billing_document_template</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-23 18:51:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dcfc2360dbc203000a1dd8c0cf96197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-23 18:51:45</sys_updated_on>
+            <value>center</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>image_position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Right</label>
+            <language>en</language>
+            <name>x_0555_it_billing_it_billing_document_template</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-23 18:51:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>13fc6720dbc203000a1dd8c0cf96193e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-23 18:51:56</sys_updated_on>
+            <value>right</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>image_position</element>
+            <name>x_0555_it_billing_it_billing_document_template</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-23 18:51:33</sys_created_on>
+            <sys_id>2bec2360dbc203000a1dd8c0cf961978</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>image_position</sys_name>
+            <sys_package display_value="IT Billing" source="x_0555_it_billing">6d8b4d92db3103000a1dd8c0cf961994</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IT Billing">6d8b4d92db3103000a1dd8c0cf961994</sys_scope>
+            <sys_update_name>sys_choice_x_0555_it_billing_it_billing_document_template_image_position</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-23 18:51:33</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

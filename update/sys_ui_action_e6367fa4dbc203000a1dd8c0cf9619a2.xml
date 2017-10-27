@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_style/>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Create PDF Invoice</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[action.setRedirectURL(current);
+var headerimage = '';
+var footerimage = '';
+var footnote = 'Panasonic Europe - 101 Demonstration Road, 12345 Utopia';
+var headerPosition = '';
+var footerPosition = '';
+var pageSize = 'a4';
+var body = '<br/><h1>Panasonic Europe</h1>';
+body += '<p>101 Demonstration Road<br/>12345 Utopia<br/>billing@panasonic-europe.com</p>';
+body += '<br/><br/>';
+body += '<h2>'+current.company.name+'</h2>';
+body += '<p>'+current.company.street+'<br/>'+current.company.zip+' '+current.company.city+'</p>';
+body += '<br/><br/>';
+body += '<br/><p>01.10.2017</p><br/><h3>INVOICE No. '+current.number+'</h3><br/><br/><p>This is your monthly order summary:</p><br/>';
+
+var gr = new GlideRecord('x_0555_it_billing_monthly_service_bill_line_item');
+gr.addQuery('monthly_service_bill', current.sys_id);
+gr.query();
+var total = 0;
+while (gr.next()) {
+	total += parseFloat(gr.price);
+	body += '<p>'+gr.name+': € '+gr.price.getDisplayValue()+'</p>';
+}
+
+
+// body += '<p>Dell XPS 13 Laptop                                 €  899,00</p>';
+// body +=	'<p>Dell XPS 13 Laptop - Service & Support Charge      €   79,00</p><br/>';
+body +=	'<p><b>Total € 978,00</b></p>';
+body +=	'<br/><br/><p>If you have any questions or concerns, <br/>please contact <b><a>billing@panasonic-europe.com</a></b><br/></p><br/><p>Thank you for your business.</p><br/>';
+body +=	'<br/><br/><p><b>Panasonic Europe</b></p><br/>';
+
+var pages = [];
+
+
+var pdf = new global.GeneralFormAPI(current.date+'-Invoice-'+current.company.name+'.pdf', 'x_0555_it_billing_monthly_service_bill', current.sys_id);
+
+pdf.setDocument(headerimage,footerimage,footnote,headerPosition,footerPosition,pageSize);
+pdf.createPDF(body, pages);]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-23 19:34:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e6367fa4dbc203000a1dd8c0cf9619a2</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_name>Create PDF Invoice</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Billing" source="x_0555_it_billing">6d8b4d92db3103000a1dd8c0cf961994</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Billing">6d8b4d92db3103000a1dd8c0cf961994</sys_scope>
+        <sys_update_name>sys_ui_action_e6367fa4dbc203000a1dd8c0cf9619a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-24 08:06:42</sys_updated_on>
+        <table>x_0555_it_billing_monthly_service_bill</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

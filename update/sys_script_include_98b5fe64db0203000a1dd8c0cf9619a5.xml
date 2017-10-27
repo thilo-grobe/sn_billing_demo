@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_0555_it_billing.ITBillingHelper</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>ITBillingHelper</name>
+        <script><![CDATA[var ITBillingHelper = Class.create();
+ITBillingHelper.prototype = {
+	initialize: function() {
+	},
+	
+	createBillingRecord: function(item, contract_months) {
+		var gr = new GlideRecord('x_0555_it_billing_it_contract');
+		gr.newRecord();
+		gr.order = item.sys_id;
+		var d = new GlideDateTime();
+		gr.contract_start = d.getDate();
+		d.addMonthsUTC(contract_months);
+		gr.contract_end = d.getDate();
+		gr.auto_renew = true;
+		gr.renew_period = '1';
+		gr.info = 'Demo Contract generated for IT Billing Demo';
+		gr.insert();
+	},
+	
+	createLineItems: function(contract) {
+	
+		
+		//common
+		var d = new GlideDateTime();
+		var month = d.getMonthUTC();
+		var year = d.getYearUTC();
+		var billingDate = new GlideDate();
+		billingDate.setValue(year+'-'+month+'-01');
+		
+		//parent bill
+		var bill = new GlideRecord('x_0555_it_billing_monthly_service_bill');
+		bill.newRecord();
+		bill.date = billingDate;
+	    bill.company = contract.company.sys_id;
+		bill.insert();
+		
+		//one-time charge
+		var gr = new GlideRecord('x_0555_it_billing_monthly_service_bill_line_item');
+		gr.newRecord();
+		gr.name = 'Dell XPS 13 Laptop';
+		gr.billing_date = billingDate;
+		gr.category = 'hardware';
+		gr.price = contract.order.price;
+		gr.contract = contract.sys_id;
+		gr.monthly_service_bill = bill.sys_id;
+		gr.insert();
+		
+		//recurring charge
+		gr = new GlideRecord('x_0555_it_billing_monthly_service_bill_line_item');
+		gr.newRecord();
+		gr.name = 'Dell XPS 13 Laptop - Service & Support Charge';
+		gr.billing_date = billingDate;
+		gr.category = 'services';
+		gr.price = contract.order.recurring_price;
+		gr.contract = contract.sys_id;
+		gr.monthly_service_bill = bill.sys_id;
+		gr.insert();
+		
+	},
+	
+	type: 'ITBillingHelper'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-23 14:55:52</sys_created_on>
+        <sys_id>98b5fe64db0203000a1dd8c0cf9619a5</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>ITBillingHelper</sys_name>
+        <sys_package display_value="IT Billing" source="x_0555_it_billing">6d8b4d92db3103000a1dd8c0cf961994</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="IT Billing">6d8b4d92db3103000a1dd8c0cf961994</sys_scope>
+        <sys_update_name>sys_script_include_98b5fe64db0203000a1dd8c0cf9619a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-24 10:47:57</sys_updated_on>
+    </sys_script_include>
+</record_update>

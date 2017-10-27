@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="contract" label="Contract" language="en" table="x_0555_it_billing_monthly_service_bill_line_item">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>contract</element>
+            <help/>
+            <hint/>
+            <label>Contract</label>
+            <language>en</language>
+            <name>x_0555_it_billing_monthly_service_bill_line_item</name>
+            <plural>Contracts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-23 16:01:13</sys_created_on>
+            <sys_id>acf503a0db4203000a1dd8c0cf96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Contract</sys_name>
+            <sys_package display_value="IT Billing" source="x_0555_it_billing">6d8b4d92db3103000a1dd8c0cf961994</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IT Billing">6d8b4d92db3103000a1dd8c0cf961994</sys_scope>
+            <sys_update_name>sys_documentation_x_0555_it_billing_monthly_service_bill_line_item_contract_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-23 16:01:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

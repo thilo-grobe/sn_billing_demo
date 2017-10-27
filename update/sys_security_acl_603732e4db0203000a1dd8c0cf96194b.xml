@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_0555_it_billing_it_contract</description>
+        <name>x_0555_it_billing_it_contract</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-23 14:56:46</sys_created_on>
+        <sys_id>603732e4db0203000a1dd8c0cf96194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_0555_it_billing_it_contract</sys_name>
+        <sys_package display_value="IT Billing" source="x_0555_it_billing">6d8b4d92db3103000a1dd8c0cf961994</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Billing">6d8b4d92db3103000a1dd8c0cf961994</sys_scope>
+        <sys_update_name>sys_security_acl_603732e4db0203000a1dd8c0cf96194b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-23 14:56:46</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

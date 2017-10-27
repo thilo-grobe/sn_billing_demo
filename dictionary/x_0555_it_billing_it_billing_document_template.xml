@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="IT Billing Document Template" max_length="40" name="x_0555_it_billing_it_billing_document_template" type="collection">
+        <element attributes="serializer=com.glide.script.TranslatedTextXMLSerializer" dependent="table" dependent_on_field="table" label="Body" max_length="8192" name="body" type="html_script" use_dependent_field="true"/>
+        <element label="Header image" max_length="40" name="header_image" type="user_image"/>
+        <element choice="3" default="left" label="Image Position" max_length="40" name="image_position" type="choice">
+            <choice>
+                <element label="Left" sequence="1" value="left"/>
+                <element label="Center" sequence="2" value="center"/>
+                <element label="Right" sequence="3" value="right"/>
+            </choice>
+        </element>
+        <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Table" max_length="80" name="table" type="table_name"/>
+    </element>
+</database>

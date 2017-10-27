@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="IT Contract" max_length="40" name="x_0555_it_billing_it_contract" type="collection">
+        <element label="Auto Renew" max_length="40" name="auto_renew" type="boolean"/>
+        <element label="Company" max_length="32" name="company" reference="core_company" type="reference"/>
+        <element label="Contract End" max_length="800" name="contract_end" read_only="true" type="glide_date"/>
+        <element label="Contract Start" max_length="800" name="contract_start" read_only="true" type="glide_date"/>
+        <element label="has Data?" max_length="40" name="has_data" type="boolean"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Order" max_length="32" name="order" reference="sc_req_item" type="reference"/>
+        <element label="Remaining Contract Value" max_length="20" name="remaining_contract_value" type="price"/>
+        <element choice="3" default="1" label="Renew Period" max_length="40" name="renew_period" type="choice">
+            <choice>
+                <element label="1 month" sequence="1" value="1"/>
+                <element label="3 months" sequence="2" value="3"/>
+                <element label="12 months" sequence="3" value="12"/>
+            </choice>
+        </element>
+        <element label="Total Contract Value" max_length="20" name="total_contract_value" type="price"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="company"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+        <index name="index3">
+            <element name="order"/>
+        </index>
+    </element>
+</database>
